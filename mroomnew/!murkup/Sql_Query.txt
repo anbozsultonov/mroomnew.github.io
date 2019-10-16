@@ -1,0 +1,6 @@
+//$query_busy = "SELECT ID,IMAGE,TITLE FROM tbl_rooms AS r WHERE r.ID IN (SELECT IDROOM FROM tbl_orders AS o WHERE o.IDROOM=r.ID AND DATE = FROMDATE AND TIME BETWEEN o.FROMTIME AND o.TOTIME) LIMIT 3";
+		//$query_wlby = "SELECT ID,IMAGE,TITLE FROM tbl_rooms AS r WHERE r.ID IN (SELECT IDROOM FROM tbl_orders AS o WHERE o.IDROOM=r.ID AND DATE < o.FROMDATE) LIMIT 2";
+		//$free = $this->db->getRooms($query_free);
+		//$busy = $this->db->getRooms($query_busy);
+		//$wlbs = $this->db->getRooms($query_wlbs);
+		
